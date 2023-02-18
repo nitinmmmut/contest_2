@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="create Library Management System using javascript ">
+    <title>FE2 contst 2 18-02-2023</title>
+</head>
+<body>
+    <h1>Library Management System</h1>
+    <form>
+        <div class="div1">
+            <label for="bookName">Book Name</label>
+            <input type="text" id="bookName"><br>
+        </div>
+        <div class="div2">
+            <label for="issuedTo">Issued To</label>
+            <input type="text" id="issuedTo">
+        </div>
+
+    </form>
+    <button class="btn" onclick="addRecord()">Issue Book</button>
+    <table id="myTable">
+        <tr>
+            <th>ID</th>
+            <th>Book Name</th>
+            <th>Issued To</th>
+            <th>Issue Date and Time</th>
+            <th>Status</th>
+        </tr>
+
+
+
+
+    </table>
+    <script src="script.js"></script>
+    
+</body>
+</html>

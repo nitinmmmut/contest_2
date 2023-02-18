@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.div1,
+.div2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    border: 1px solid white;
+}
+
+.div2 input {
+    margin-left: 15px;
+}
+
+.btn {
+    margin: 15px;
+    background-color: white;
+    color: black;
+    width: 345px;
+    height: 40px;
+    cursor: pointer;
+}
+
+table {
+    width: 90%;
+}
+
+table,
+th {
+
+    margin: 20px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px 40px 10px 10px;
+}
+
+td {
+    border-right: 1px solid white;
+    padding: 10px;
+}
+
+.btn1 {
+    cursor: pointer;
+    
+}
